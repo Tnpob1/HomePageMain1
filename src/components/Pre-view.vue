@@ -27,7 +27,7 @@ export default {
 <template>
   <div class="bg">
     <video autoplay muted loop class="video-bg" style="object-fit: cover">
-      <source src="D:\exProj\Homepage-main\Homepage-main\PlaceImg\BgVid.mp4" type="video/mp4" />
+      <source src="../assets/BgVid.mp4" type="video/mp4" />
     </video>
     <div class="content absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
       <div class="Ttext">
@@ -52,12 +52,12 @@ export default {
           :autoplay="{ delay: 10000 }"
           class="mySwiper"
         >
-            <swiper-slide><img src="D:\exProj\Homepage-main\Homepage-main\PlaceImg\france.jpg" /></swiper-slide
-          ><swiper-slide><img src="D:\exProj\Homepage-main\Homepage-main\PlaceImg\hmm.png" /></swiper-slide
-          ><swiper-slide><img src="D:\exProj\Homepage-main\Homepage-main\PlaceImg\huh.png" /></swiper-slide
-          ><swiper-slide><img src="D:\exProj\Homepage-main\Homepage-main\PlaceImg\jerry.jpg" /></swiper-slide
-          ><swiper-slide><img src="D:\exProj\Homepage-main\Homepage-main\PlaceImg\rome.jpg" /></swiper-slide
-          ><swiper-slide><img src="D:\exProj\Homepage-main\Homepage-main\PlaceImg\venice.jpg" /></swiper-slide>
+            <swiper-slide><img src='../assets/france.jpg' /></swiper-slide
+          ><swiper-slide><img src="../assets/hmm.jpg" /></swiper-slide
+          ><swiper-slide><img src="../assets/huh.jpg" /></swiper-slide
+          ><swiper-slide><img src="../assets/jerry.jpg" /></swiper-slide
+          ><swiper-slide><img src="../assets/rome.jpg" /></swiper-slide
+          ><swiper-slide><img src="../assets/venice.jpg" /></swiper-slide>
         </swiper>
       </div>
       <div class="credit">
